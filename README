@@ -1,0 +1,10 @@
+chương trình được cài đại trên IDE VSCODE
+Trước khi build chương trình setup path của thư viên pcap tại các file: 
+    + tasks.json
+    + c_cpp_properties.json
+
+Crlt + Shirt + B: để build Task -> xuất ra một .exe (tên main.cpp -> main.exe)
+termial: ./main.exe <filename>.pcap (VD ./main.exe sample-traffic.pcap)
+
+OUTPUT: chương trình sẽ oup kết quả ra consolse và một result.txt 
+NOTE: đếm số lượng gói tin của mối giao thức output ở cuối chương trình, sau quá trình phân tích từng gói tin.
